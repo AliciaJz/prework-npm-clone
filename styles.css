@@ -58,31 +58,32 @@ nav a {
 
 .search-container {
   display: flex;
+}
+
+.search-bar {
+  display: flex;
   height: 40px;
-  width: 45%;
+  width: 800px;
   margin: 18px 0 0 15px;
   padding: 0 16px;
   background-color: #1F516D;
   color: white;
   border: 1px solid #4c7389;
-}
-
-.search-bar [type=text] {
-  display: flex;
-  background-color: transparent;
-  font-size: 2em;
-  width: 30px;
+  font-size: 1.3em;
+  /* height: 40px;
+  width: 30px; */
 }
 
 .search-button {
   display: flex;
   background-color: #1F516D;
-  height: 42px;
-  width: 42px;
-  text-align: center;
+  height: 30px;
+  width: 30px;
+  margin: 18px 0 0 0;
+  padding: 10px 0 0 10px;
+  /* text-align: center; */
   border: 1px solid #4c7389;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 16px;
   text-rendering: auto;
   border-radius: 0 4px 4px 0;
 }
@@ -141,7 +142,7 @@ nav a {
 
 .collab-img{
   margin: 100px auto 0 200px;
-  width: 43%;
+  width: 40%;
   height: auto;
   float: left;
 }
